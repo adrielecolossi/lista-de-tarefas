@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ddd290ed.css",
+    "main.js": "/static/js/main.13516821.js",
+    "static/js/787.53f66029.chunk.js": "/static/js/787.53f66029.chunk.js",
+    "static/media/logoListaDeTarefas.png": "/static/media/logoListaDeTarefas.7803ed2e9cea41bd0166.png",
+    "index.html": "/index.html",
+    "main.ddd290ed.css.map": "/static/css/main.ddd290ed.css.map",
+    "main.13516821.js.map": "/static/js/main.13516821.js.map",
+    "787.53f66029.chunk.js.map": "/static/js/787.53f66029.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddd290ed.css",
+    "static/js/main.13516821.js"
+  ]
+}
