@@ -1,0 +1,25 @@
+body{
+    background-color: #FFF;
+}
+
+.li-calendario{
+    background-color: #2F0147;
+    color: #FFFF;
+    width: 90%;
+}
+.ul-calendario{
+    margin-top: 5%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .ul-calendario{
+        margin-left: 0%;
+        margin-top: 20%;
+        width: 50%;
+        height:fit-content
+            }  
+        
+}

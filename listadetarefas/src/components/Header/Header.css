@@ -1,0 +1,67 @@
+.NormalSidebar{
+ 
+    width: 40%;
+    background-color: #E2C2C6;
+     height: 100vh;
+    
+   display: flex;
+   flex-direction: column;
+  justify-self: flex-start;
+  align-items: center;
+}
+.ImagemHeader{
+    width: 40%;
+    align-self: flex-start;
+}
+.NormalSidebar a{
+    font-weight: bold;
+    color: #FFFF;
+    background-color: #B9929F;
+    padding: 5%;
+    width:70%;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.NormalSidebar a:hover{
+    background-color: #2F0147;
+    width:85%;
+}
+body{
+    height:100%;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .NormalSidebar{
+ 
+        width: 40%;
+        background-color: #E2C2C6;
+         height: 100vh;
+        
+    }
+
+    .ImagemHeader{
+        width: 80%;
+        align-self: flex-start;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .NormalSidebar{
+ 
+        width: 40%;
+        background-color: #E2C2C6;
+         height: 100vh;
+         
+       
+    }
+    .ImagemHeader{
+        width: 80%;
+        align-self: flex-start;
+    }
+}

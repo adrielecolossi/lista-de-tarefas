@@ -1,0 +1,78 @@
+div{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+
+.labels{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+
+.radioInputs{
+display: flex;
+}
+
+ul{
+    margin-top: 5%;
+}
+
+ li{
+        background-color: #9C528B;
+        width: 100%;
+        
+        font-size: 1em;
+        color:#FFFF;
+        margin-bottom:10%;
+        padding: 5%;
+        inline-size: 90%;
+        overflow-wrap: break-word;
+        hyphens: manual;
+    }
+
+.div-li{
+    width: 400px;
+}
+
+.ButtonsExcluirEditar{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ButtonEditar, .ButtonExcluir{
+    height:20%;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    ul{
+margin-left: -115%;
+width: 50%;
+height:fit-content
+    }   
+
+    li{
+        background-color: #9C528B;
+        width: 100%;
+        height: fit-content;
+        font-size: 1em;
+        color:#FFFF;
+        margin-bottom:10%;
+        padding: 5%;
+        inline-size: 150px;
+        overflow-wrap: break-word;
+        hyphens: manual;
+       
+    }
+
+    .div-li{
+        width: 200px;
+    margin-left: 60%;
+    margin-top: 40%;
+    }
+    
+}

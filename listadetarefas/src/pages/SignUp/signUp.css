@@ -1,0 +1,52 @@
+.FormSignUp{
+
+    background-color: white;
+    width: 25%;
+    height:55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    position: absolute;
+      top: 50%;
+      margin-left: 100% !important;
+    transform: translateY(-50%);
+text-align: center;
+    }
+    
+    .FormSignUp  img{
+    width: 50%;
+    }
+    
+    .FormSignUp  body{
+        background-color: #E2C2C6;
+    
+    }
+    
+    .FormSignUp  button{
+    background-color: #ddaebd;
+    color: #000;
+    transition: 0.2s;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5%;
+    }
+    
+    .FormSignUp button:hover{
+        color: #FFFF;
+        background-color: #9C528B;
+    }
+    
+    .FormSignUp h1{
+        color: #2F0147
+    }
+    
+    
+    .App{
+        display: flex;
+        justify-content: center !important;
+    
+    }
+    
+    
